@@ -1,0 +1,488 @@
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('fonts/Nexa Bold.otf');
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('fonts/Nexa Light.otf');
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('fonts/Nexa Bold.otf');
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('fonts/Nexa Light.otf');
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+
+.size {
+    color: black;
+    position: fixed;
+    z-index: 999;
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+    opacity: 1.0;
+    font-size: 2vw;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+
+.tas {
+    position: absolute;
+    border-style: solid;
+    border-width: medium;
+    z-index: 999;
+    color: black;
+    top: -12%;
+    left: 2%;
+    font-size: 3.5vh;
+    font-family: 'Nexa bold', sans-serif;
+    font-weight: 100;
+    padding: 3px 1px;
+}
+
+.pro {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 38%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.pro:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.exp {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 45%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.exp:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    font-size: 2.5vh;
+}
+
+.mod {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 56%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.mod:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.prot {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 65%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.prot:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.hp {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 74%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.hp:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.as {
+    position: absolute;
+    z-index: 999;
+    top: 2%;
+    left: 88%;
+    color: black;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
+.as:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.jumbotron {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to left, #26c5da 0%, #cc00cc 100%);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.jumbotwo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.turn {
+    position: absolute;
+    z-index: 999;
+    font-size: 10vh;
+    width: 70vh;
+    color: white;
+    font-family: Product Sans;
+    top: 20%;
+    left: 35%;
+    letter-spacing: 2px;
+}
+
+.you {
+    position: absolute;
+    z-index: 999;
+    font-size: 3.5vh;
+    color: white;
+    font-family: Product Sans;
+    top: 52%;
+    left: 35%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.button {
+    position: absolute;
+    z-index: 999;
+    background-color: #50c484;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    top: 68%;
+    left: 41%;
+    font-family: Product Sans;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #3e9b67;
+    cursor: pointer;
+}
+
+.bird {
+    position: absolute;
+    z-index: 1000;
+    width: 6vh;
+    bottom: 5%;
+    left: 2.8%;
+    border-radius: 50%;
+}
+
+.bird:hover {
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+
+.instagram {
+    position: absolute;
+    z-index: 1000;
+    width: 6vh;
+    bottom: 5%;
+    left: 6.9%;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    background-color: ghostwhite;
+    border-radius: 31%;
+}
+
+.fb {
+    position: absolute;
+    border-radius: 20%;
+    z-index: 1000;
+    width: 6vh;
+    bottom: 5%;
+    left: 11%;
+}
+
+.fb:hover {
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+
+.colorful {
+    background-color: lightgray;
+    font: Nexa-Light;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+}
+
+.bold {
+    font-weight: bold;
+    top: 125%;
+}
+
+.Exptitle {
+    left: 30%;
+}
+
+.img {
+    height: 50vh;
+    width: 50vw;
+    padding-left: 35vh;
+    padding-bottom: 9vh;
+}
+
+.centers {
+    background-color: gray;
+    height: 55vh;
+    width: 100vw;
+}
+
+.center {
+    font-family: 'Nexa bold', sans-serif;
+    left: 10%;
+    position: absolute;
+}
+
+.loremtext {
+    font-family: 'Nexa bold', sans-serif;
+    left: 10%;
+    position: absolute;
+    top 155%;
+}
+
+.quick {
+    position: absolute;
+    left: 5%;
+    font-family: 'Nexa bold', sans-serif;
+    top: 70%
+}
+
+.bullet1 {
+    position: absolute;
+    left: 10%;
+    font-family: 'Nexa bold', sans-serif;
+    top: 78%;
+}
+
+
+
+.navbar {
+    color: black;
+    position: fixed;
+    z-index: 999;
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+    opacity: 1.0;
+}
+
+
+
+.tas {
+    position: fixed;
+    border-style: solid;
+    border-width: medium;
+    z-index: 999;
+    top: 0;
+    left: 2%;
+    font-size: 3.5vh;
+    font-family: 'Nexa bold', sans-serif;
+    font-weight: 100;
+    padding: 3px 1px;
+
+}
+
+.pro {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 38%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+.pro:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.exp {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 45%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.exp:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.mod {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 56%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.mod:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.prot {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 65%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.prot:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.hp {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 74%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.hp:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.as {
+    position: fixed;
+    z-index: 999;
+    top: 2%;
+    left: 88%;
+    font-family: 'Nexa light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.as:hover {
+    cursor: pointer;
+    color: #00ff08;
+    text-decoration: underline;
+}
+
+.background {
+    background-color: whitesmoke;
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:
+}
+
+.heading {
+    top: 0;
+    font-family: 'Nexa light', sans-serif;
+    color: black;
+    z-index: 999;
+}
